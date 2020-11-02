@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Helvetica;
+  box-sizing: border-box;
+  outline: none;
+}
+html,
+body{
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #800FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center{
+  text-align: center;
+}
+.date-input{
+  padding: 5px 10px;
+}
+.date-input:focus{
+  padding: 2px 7px;
+  border: 3px solid #42f595;
+}
+
+.output-container{
+  color: #42f595;
+  padding-top: 10px;
+}
